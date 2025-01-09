@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>8章課題</title>
+  <meta name="description" content="このページは8章の課題です。">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <header>
+    <h1>SAMURAIニュース</h1>
+    <nav>
+        <ul>
+            <li><a href="https://www.sejuku.net/">ホーム</a></li>
+            <li><a href="https://www.sejuku.net/">社会</a></li>
+            <li><a href="https://www.sejuku.net/">経済</a></li>
+            <li><a href="https://www.sejuku.net/">スポーツ</a></li>
+            <li><a href="https://www.sejuku.net/">テクノロジー</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h2>社会</h2>
+      <section>
+        <h3>和菓子店も「トリックオアトリート！」</h3>
+        <p>日本でも年々人気の高まるハロウィン。<br>今年は大手和菓子店5社がハロウィン向けの和菓子セットを共同開発しました。</p>
+        <audio src="ichi.mp3" controls></audio>
+       </section>
+      <section>
+        <h3>私のおすすめ和菓子アンケートフォーム</h3>
+        <form>
+          <label for="name">名前</label>
+            <input type="text" id="name" name="name" placeholder="名前を入力してください">
+          <label for="email">年代</label>
+            <select id="age" name="age" title="年代を選択してください">
+              <option value="10代">10代</option>
+              <option value="20代">20代</option>
+              <option value="30代">30代</option>
+              <option value="40代">40代以上</option>
+            </select>
+          <label for="gender">性別</label>
+            <input type="radio" id="men" name="gender" value="男性"><label for="men">男性</label>
+            <input type="radio" id="ladies" name="gender" value="女性"><label for="ladies">女性</label>
+            <input type="radio" id="other" name="gender" value="その他"><label for="other">その他</label>
+          <label for="sweets">おすすめの和菓子</label>
+            <textarea id="sweets" name="sweets" placeholder="おすすめの和菓子を入力してください"></textarea>
+          <label for="message">おすすめする理由</label>
+            <textarea id="message" name="message"></textarea>
+          <label for="agree">個人情報保護方針に同意する</label>
+            <input type="checkbox" id="agree" name="agree" value="同意">
+          <button type="submit">送信</button>
+          <button type="reset">リセット</button>
+        </form>
+      </section>
+    </article>
+    <article>
+      <h2>テクノロジー</h2>
+      <section>
+        <h3>SAMURAIが新しい動画をリリース</h3>
+        <p>SAMURAI公式YouTubeで新しい動画がリリースされました。<br>動画の内容はHTML/CSSの解説です。</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLiGSUohEo?si=R8d3RPldEs6yRw2D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <p>&copy;SAMURAIニュース</p>
+  </footer>
+</body>
+</html>
