@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
 html {
+    font-size: 20px;
+}
+
+body {
   font-family: "Arial", "Meiryo", sans-serif;
-  font-size: 20px;
   text-align: center;
 }
 
@@ -22,6 +25,6 @@ h1 {
     border-bottom: 3px solid rgb(115, 115, 114);
 }
 
-#basic p {
+#basic > p {
     font-weight: bold;
 }
